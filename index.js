@@ -15,9 +15,6 @@ function destructivelyRemoveFirstKitten() {
 }
 var appendKitten =  kittens.concat(['broom']);
 
-function appendKitten() {
-  kittens.push('Broom');
-}
 
 
 
@@ -32,6 +29,4 @@ function appendKitten() {
 
 
 
-function removeFirstKitten() {
-  console.log(kittens.slice(1));
-}
+
