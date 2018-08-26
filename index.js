@@ -1,15 +1,17 @@
 // Add your functions and code here
 var kittens = ['milo', 'Otis', 'Garfield'];
-
 function destructivelyAppendKitten() {
   kittens.push('Ralph');
 }
+var kittens = ['Milo', 'Otis', 'Garfield'];
 function destructivelyPrependKitten() {
   kittens.unshift('Bob');
 }
+var kittens = ['Milo', 'Otis', 'Garfield'];
 function destructivelyRemoveLastKitten() {
   kittens.pop(1);
 }
+var kittens = ['Milo', 'Otis', 'Garfield'];
 function destructivelyRemoveFirstKitten() {
   kittens.shift(1);
 }
